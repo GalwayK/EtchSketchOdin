@@ -1,0 +1,33 @@
+body
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+main
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: thin black solid;
+    background-color: beige;
+    width: 99%;
+    height: 80vh;
+}
+
+header, footer
+{
+    height: 10vh;
+}
+
+main div 
+{
+    border: thin black solid;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
